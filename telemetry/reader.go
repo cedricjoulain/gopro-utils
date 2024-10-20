@@ -56,6 +56,18 @@ func Read(f io.Reader) (*TELEM, error) {
 		"HUES",
 		"SROT",
 		"TIMO",
+		"STMP", // TODO
+		"GPSA", // TODO
+		"CORI", // TODO
+		"IORI", // TODO
+		"GRAV", // TODO
+		"WNDM", // TODO
+		"MWET", // TODO
+		"AALP", // TODO
+		"MSKP", // TODO
+		"LRVO", // TODO
+		"LRVS", // TODO
+		"LSKP", // TODO
 	}
 
 	label := make([]byte, 4, 4) // 4 byte ascii label of data
